@@ -7,35 +7,60 @@ body {
 }
 
 
-h1, h2, h3 {
-  color: blue;
+
+
+
+h1 {
+  color: #BF3444;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
+
+h2 {
+  color: #DB3C6C;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  color: #9933ff;
+  font-size: 18px;
+}
+
 
 
 a {
-  color: blue;
   text-decoration: none;
+  color: #BF3444;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: italic;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: purple;
+  color: black;
 }
+
 
 
 .container {
   width: 700px;
-  margin: 40px auto;
+  margin: 30px auto;
 }
+
 
 
 .card {
+  border: 1px solid #DB3C6C;
   background: white;
   padding: 30px;
-  margin: 20px 0px;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 20px;
+  box-shadow: 15px 15px 35px rgba(0,0,0,0.2);
+  margin: 20px 0;
   text-align: center;
 }
+
 
 
 .img-circle {
@@ -44,19 +69,21 @@ a:hover {
 }
 
 
+
 .btn-blue {
-  background-color: blue;
+  background-color: #BF3444;
   color: white;
   padding: 12px 20px;
-  border-radius: 4px;
+  border-radius: 5px;
   display: inline-block;
   margin-top: 15px;
 }
 
 .btn-blue:hover {
-  background-color: purple;
+  background-color: black;
   color: white;
 }
+
 
 
 .list-inline {
@@ -70,20 +97,8 @@ a:hover {
 }
 
 
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-
 @media (max-width: 720px) {
   .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
+    width: 90%;
   }
 }
